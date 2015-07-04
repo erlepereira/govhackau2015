@@ -1,0 +1,11 @@
+Helper Scripts.
+
+In order to import the set of data, from the xml into Neo4j, 
+xml2neo[1] was used to import the set of data into cyper queries. This script bascially replicates the xml structure into the graph. The structure itself can be adapted later.
+
+[1] xml2neo available here 
+https://github.com/moxious/xml2neo
+
+
+convert.sh was used along with xml2neo to convert xml files into an importable format
+
